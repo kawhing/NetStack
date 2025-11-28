@@ -1,0 +1,44 @@
+# IDEs
+.idea/
+.vscode/
+*.iml
+
+# CMake / build directories
+cmake-build-debug/
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+
+# Object files / binaries / libs
+*.o
+*.obj
+*.lo
+*.a
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.app
+
+# Temp / logs / test build
+*.log
+*.tmp
+tests/build/
+
+# Package managers / dependency build artifacts
+vcpkg_installed/
+packages/
+deps/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Python artifacts (if any)
+__pycache__/
+*.pyc
