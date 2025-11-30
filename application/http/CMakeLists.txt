@@ -8,7 +8,9 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 # 可将源文件放在本目录下
 add_executable(
         http
-        main.c
+        Server.h
+        Server.c
+        test.c
 )
 
 # 如需包含仓库顶层的 include 目录
